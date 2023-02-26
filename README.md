@@ -1,16 +1,30 @@
-# pixabay_ddd
+# riverpodを使用した無限スクロール
+## 実装例
+![flutter_infinite_scroll_with_riverpod](https://user-images.githubusercontent.com/100392635/221402034-ba4da711-3503-43be-96da-2a04a120b4f2.gif)
+## フォルダディレクトリ
 
-A new Flutter project.
+```
+lib
+├─data
+│ └─api.dart
+│
+├─domain
+│ ├─repository
+│ │ └─pixabay_repository.dart
+│ └─service
+│   └─search_result_service.dart
+│
+├─state
+│ ├─search_result_state.dart
+│ └─search_result_state.freezed.dart
+│
+├─ui
+│ ├─search_result
+│ │ ├─components
+│ │ │  └─image_card.dart
+│ │ └─search_result_page.dart
+│ └─home.dart
+│
+└─main.dart
+```
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
